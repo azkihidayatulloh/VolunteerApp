@@ -3,4 +3,8 @@
     <color name="colorPrimary">#2D3E50</color>
     <color name="colorPrimaryDark">#273848</color>
     <color name="colorAccent">#FF4081</color>
+    <color name="newStatusbar">#FEB4B9</color>
+    <color name="newToolbar"></color>
+    <color name="newAccent"></color>
+    <color name="buttonDisabled">#F86B77</color>
 </resources>
