@@ -13,7 +13,7 @@
     android:theme="@style/ThemeOverlay.AppCompat.Dark"
     >
 
-    <ImageView
+    <de.hdodenhof.circleimageview.CircleImageView
         android:id="@+id/imageView"
         android:layout_marginTop="5dp"
         android:layout_width="match_parent"
@@ -21,7 +21,7 @@
         android:layout_gravity="center"
         android:contentDescription="@string/nav_header_desc"
         android:paddingTop="@dimen/nav_header_vertical_spacing"
-        app:srcCompat="@mipmap/ic_launcher_round" />
+        android:src="@mipmap/ic_launcher_round" />
 
     <TextView
         android:id="@+id/iv_name"
@@ -42,8 +42,9 @@
         android:gravity="center"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textColor="@android:color/black"
+        android:textColor="#ff5e63"
         android:textSize="10sp"
-        android:text="@string/nav_header_subtitle" />
+        android:text="@string/nav_header_subtitle"
+        android:layout_marginBottom="@dimen/activity_vertical_margin"/>
 
 </LinearLayout>

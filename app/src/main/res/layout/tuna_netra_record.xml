@@ -56,7 +56,11 @@
             android:layout_marginRight="16dp"
             android:layout_marginEnd="16dp"
             android:textColor="@android:color/white"
-            android:text="Send ->"/>
+            android:drawableRight="@drawable/ic_arrow_forward_white_24dp"
+            android:drawablePadding="2dp"
+            android:paddingLeft="38dp"
+            android:paddingRight="40dp"
+            android:text="Send"/>
     </LinearLayout>
 
 </LinearLayout>

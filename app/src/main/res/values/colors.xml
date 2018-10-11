@@ -7,4 +7,7 @@
     <color name="newToolbar"></color>
     <color name="newAccent"></color>
     <color name="buttonDisabled">#F86B77</color>
+    
+    <color name="colorRed">#ff5e63</color>
+    <color name="colorBlue">#9dd1fb</color>
 </resources>
