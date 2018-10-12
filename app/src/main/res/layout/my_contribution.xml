@@ -9,5 +9,5 @@
     <android.support.v7.widget.RecyclerView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        tools:listitem="@layout/tuna_netra_request_item"/>
+        tools:listitem="@layout/my_contribution_item"/>
 </LinearLayout>
