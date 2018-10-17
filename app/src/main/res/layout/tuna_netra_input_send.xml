@@ -12,7 +12,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Name"
+            android:text="@string/name"
             android:textSize="16sp"
             android:layout_marginBottom="@dimen/activity_vertical_margin"/>
 
@@ -20,14 +20,14 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@drawable/editext_background"
-            android:hint="Title"
+            android:hint="@string/title"
             android:layout_marginBottom="@dimen/activity_vertical_margin"
             />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Select Category"
+            android:text="@string/select_category"
             android:textSize="16sp"
             android:layout_marginBottom="@dimen/activity_vertical_margin"/>
 
@@ -35,7 +35,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@drawable/editext_background"
-            android:hint="Category"
+            android:hint="@string/category"
             />
     </LinearLayout>
 
@@ -44,7 +44,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@drawable/button_background"
-        android:text="Submit"
+        android:text="@string/submit"
         android:textAllCaps="false"
         android:textColor="@android:color/white"
         android:textSize="18sp"

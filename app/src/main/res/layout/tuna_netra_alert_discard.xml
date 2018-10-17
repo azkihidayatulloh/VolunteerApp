@@ -49,7 +49,7 @@
             android:layout_marginStart="16dp"
             android:layout_weight="1"
             android:background="@drawable/button_green_background"
-            android:text="Yes"
+            android:text="@string/yes"
             android:textColor="@color/buttonPositive" />
 
         <Button
@@ -61,7 +61,7 @@
             android:layout_marginStart="16dp"
             android:layout_weight="1"
             android:background="@drawable/button_discard_background"
-            android:text="No"
+            android:text="@string/no"
             android:textColor="@color/buttonDisabled" />
     </LinearLayout>
 
